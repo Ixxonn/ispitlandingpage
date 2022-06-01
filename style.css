@@ -1,0 +1,46 @@
+div{
+    border-style: none;
+    height: 200px;
+    
+}
+.div1{
+    background-color: #1f2937;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-around;
+    
+}
+body{
+    margin: 0px;
+}
+.div2{
+    
+    background-color: #1f2937;
+    height: 200px;
+}
+.div3{
+    background-color: white;
+    height: 200px;
+}
+.div4{
+    background-color: #e5e7eb;
+    height: 190px;
+}
+.div5{
+    background-color: white;
+    height: 180px;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+display: flex;
+gap: 20px;
+}
