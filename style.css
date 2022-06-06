@@ -9,6 +9,7 @@
     padding-left: 150px;
     padding-right: 150px;
     
+    
 }
 body{
     margin: 0px;
@@ -16,7 +17,7 @@ body{
 .div2{
     
     background-color: #1f2937;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -38,10 +39,14 @@ body{
 .div4{
     background-color: #e5e7eb;
     height: 190px;
+    
 }
 .div5{
     background-color: white;
     height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 span{
     color: white;
@@ -74,6 +79,7 @@ gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
     
 }
 .buttonparent{
@@ -106,6 +112,7 @@ gap: 20px;
     display: flex;
     flex-direction: row;
     gap: 30px;
+   
 
 }
 .slikaipodtekst{
@@ -125,5 +132,54 @@ gap: 20px;
     height: 100px;
     border-radius: 15px;
     border-color: lightskyblue;
+    object-fit: cover;
     
+   }
+   .quote{
+       display: flex;
+       justify-content: center;
+       color: black;
+       padding-top: 80px;
+       font-style: italic;
+       font-size: larger;
+
+   }
+   .potpis{
+       display: flex;
+       justify-content: center;
+       color: black;
+       padding-left: 651px;
+       font-weight: bold;
+       font-size: small;
+
+   }
+   .plaviokvir{
+       background-color: rgba(0, 119, 255, 0.747);
+       height: 80px;
+       width: 500px;
+       border-radius: 5px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+       font-size: small;
+       
+   }
+   .signup{
+       border-style: solid;
+       border-radius: 5px;
+       border-width: 1px;
+       padding: 3px;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+   .copyright{
+       color: white;
+       display: flex;
+       justify-content: center;
+       
+   }
+   body{
+    font-family: 'Expletus Sans', cursive;
    }
